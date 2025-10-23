@@ -12,21 +12,21 @@
         <!-- Form Content -->
         <!-- username -->
         <label for="username" >Full Name:</label> 
-           <input type="username" placeholder="Enter your full name"><br>
+           <input type="username" name="username" id="username" placeholder="Enter your full name"><br>
         <!-- Email -->
-        <label >Email: </label>
-            <input  placeholder="Enter valid email address"><br>
+        <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter valid email address"><br>
         <!-- Password -->
         <label for="password"> Password: </label>
-            <input type="Password" placeholder="Enter password"><br>
+            <input type="Password" name="password" id="password" placeholder="Enter password"><br>
         <!-- Gender -->
         <label for="gender">Gender: </label>
-            <input type="radio" name="gender" value="Male">Male
-            <input type="radio" name="gender" value="Female" >Female
-            <input type="radio" name="gender" value="Other">Other<br>
+            <input type="radio" name="gender" value="Male" id="gender">Male
+            <input type="radio" name="gender" value="Female" id="gender">Female
+            <input type="radio" name="gender" value="Other" id="gender">Other<br>
       <!-- Course -->
         <label for="Course">Course: </label>
-        <select name="Course" >
+        <select name="Course" id="Course" >
             <option value="" disabled selected>--Select Course--</option>
             <option value="B.tech">B.tech</option>
             <option value="BCA">BCA</option>
@@ -36,11 +36,11 @@
             </select><br>
         <!-- Contact no. -->
         <label for="Contact No.">Contact No.: </label>
-        <input type="Contact No." placeholder="Enter phone number"><br>
+        <input type="Contact No." id="Contact No." placeholder="Enter phone number"><br>
                 
        <!-- Address -->
         <label for="Address">Address:</label><br>
-        <textarea name="Address" rows="6" cols="50" placeholder="Enter your address"></textarea><br>
+        <textarea name="Address" id="Address" rows="6" cols="50" placeholder="Enter your address"></textarea><br>
       <!-- Register -->
        <button type="submit">Register</button>
        <!-- Clear -->
