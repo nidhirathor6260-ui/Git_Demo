@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel'Room Booking</title>
+</head>
+<body>
+  <h1 align="center">Hotel Room Booking Form</h1>
+    <form action="/submil-form" method="post"   >
+  
+        <fieldset>
+          <legend>Personal Information</legend>
+        <label for="fullname"  required>Full Name: </label>
+        <input type="text" id="fullname" name="fullname"><br><br>
+        <!-- Email -->
+         <label for="email" required>Email: </label>
+         <input type="email" id="email" name="email"><br><br>
+         <!-- phone no. -->
+        <label for="PhoneNo. " required>Phone: </label>
+        <input type="number" id="PhoneNo." name="PhoneNO." ><br><br>
+        </fieldset>
+          <!-- Check-in Date -->
+           <fieldset>
+            <legend>Booking Details</legend>
+        <label for="check-in" required>Check-in Date: </label>
+        <input type="date" id="check-in" name="check-in"><br><br>
+        <!-- Check-out date -->
+         <label for="check-out" required>Check-out Date:</label>
+         <input type="date" id="check-out" name="check-out "><br><br>
+         <!-- Room Type -->
+          <label for="roomtype" required>Room Type: </label>
+        <select name="roomtype" id="roomtype">
+            <option value="Single Room">Single Room</option>
+            <option value="double Room">Double Room</option>
+            <option value="suite Room">Suite Room</option>
+         </select><br><br>
+          <!--No. of Guest  -->
+          <label for="no.ofGuest" required>Number of Guests</label>
+          <input type="number" id="no.ofGuest"name="no.ofGuest" min="1" step="1"><br><br>
+
+           </fieldset>
+          <!-- Special Requests -->
+         <fieldset>
+          <legend>Requests</legend>
+          <label for="specialRequests">Special Requests: </label><br>
+          <textarea name="Special Requests" id="specialRequests"  rows="5" cols="40"></textarea><br><br>
+          </fieldset><br>
+          <!-- Book Now -->
+          <button type="submit" required>Book Now</button>
+          <!-- Reset form -->
+          <button type="reset">Reset form</button>
+    
+    </form>
+    
+</body>
+</html>
