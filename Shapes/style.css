@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height:100% ;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.Shape{
+    margin:10px;
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#Shape2{
+    margin: 30px;
+    rotate:45deg ;
+
+}
+#Shape3{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+#Shape1:hover{
+    background-color: red;
+     
+}
+#Shape2:hover{
+    background-color:green;
+}
+    
+     
+#Shape3:hover{
+    background-color:blue;
+     
+}
