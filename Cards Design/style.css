@@ -1,0 +1,62 @@
+  {
+     margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height:100% ;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.Card{
+    height: 400px;
+    width: 300px;
+    border:2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+#box1{
+    z-index: 4;
+    background-color: blue;
+}
+
+#box2{
+    z-index:3;
+    background-color:salmon;
+    rotate:-5deg;
+    transform: translate(-50%,-50%) rotate(-2deg);
+    transform: center;
+}
+#box3{
+    z-index: 2;
+    background-color: aqua;
+    rotate: -10deg;
+    
+    
+}
+#box4{
+    z-index: 1;
+    background-color: antiquewhite;
+    rotate: -15deg;
+    
+}
+.Card img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#box2:hover{
+    z-index: 5;
+}
+#box3:hover{
+    z-index: 5;
+}
+#box4:hover{
+    z-index: 5;
+}
