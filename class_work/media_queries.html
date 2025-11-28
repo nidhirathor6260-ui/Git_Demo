@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @media only screen and (max-width: 400px){
+        .boxes{
+            flex-direction: column;  
+        }   
+    }
+    @media screen and (orientation: portrait){
+        body{
+            background-color: rgb(21, 216, 41);
+        }
+    }
+     
+    .boxes{
+        display: flex;
+    }
+    .box{
+        height: 100px;
+        width:200px;
+        background-color: rgb(237, 100, 139);
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <div class="boxes">
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+        <div class="box box4">box4</div>
+        <div class="box box5">box5</div>
+    </div>
+    
+</body>
+</html>
