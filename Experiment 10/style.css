@@ -45,12 +45,6 @@
   font-weight: bold;
 }
 
-/* Hamburger Menu */
-.hamburger {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}
 
 /* Hide checkbox */
 #menu-toggle {
@@ -75,12 +69,4 @@
     text-align: center;
   }
 
-  .hamburger {
-    display: block;
-  }
-
   
-  #menu-toggle:checked + .hamburger + .nav-links {
-    display: flex;
-  }
-}
