@@ -1,0 +1,7 @@
+/* Expected Output:
+“Direct child paragraph” → green
+“Nested paragraph” → not affected. */
+div>p{
+    color: green;
+}
+
