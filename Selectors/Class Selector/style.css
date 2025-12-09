@@ -1,0 +1,7 @@
+/* Expected Output:
+All .highlight elements have yellow background + bold text */
+
+.highlight{
+    background-color:yellow;
+    font-weight: bold;
+}
