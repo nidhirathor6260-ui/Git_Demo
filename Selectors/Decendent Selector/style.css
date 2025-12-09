@@ -1,0 +1,6 @@
+/* Expected Output:
+First paragraph → brown
+Second → default black */
+div p{
+    color: brown;
+}
