@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+#header{
+    width: 100%;
+    height: 70px;
+    background: hwb(0 20% 75%);
+    position: fixed;
+
+}
+.nav-bar-top{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.lists{
+    display: flex;
+    gap: 20px;
+}
+.country-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    background: black;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+}
+.contact{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 2px;;
+    padding: 10px;
+}
